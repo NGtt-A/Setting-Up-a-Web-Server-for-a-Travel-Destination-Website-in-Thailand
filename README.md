@@ -1,2 +1,2 @@
-# Setting-Up-a-Web-Server-for-a-Travel-Destination-Website-in-Thailand
-Part of project group in Data Communication and Networking
+# Skywings_17-08-24
+Learn how to create a fully responsive Tour &amp; Travel website design from scratch using HTML, CSS, and JavaScript!

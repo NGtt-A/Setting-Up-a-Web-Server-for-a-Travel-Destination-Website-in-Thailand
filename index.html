@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Moodeng</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Moodeng</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="place.html">PLACE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="#">BOOK TRIP</a></li>
+    </ul>
+      <div class="nav__btns">
+        <button class="btn">CONTACT</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>Elevate Your Travel Experience</p>
+          <h1>Discover the Magic of Traveling in</h1>
+          <h1 style="font-size: 120px; color: crimson;">Thailand!</h1>
+          <div class="header__btns">
+            <div class="transparent">
+            <a href="./place.html" >
+            <button class="btn">Show all places</button></a></div>
+            <a href="#" id="video-popup-trigger">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="assets/tuktuk.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <div id="video-popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <div class="video-container">
+          <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Popular Destination<a href="./place.html"><button class="btn">View All</button></a></h2>
+      <p class="section__description">
+        Discover the Most Loved Destinations Around the Globe
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/1375445.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Beaches</h4>
+              <!-- <p>New York City, USA</p> -->
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/1375447.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Temples</h4>
+              <!-- <p>Paris, France</p> -->
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/3207308.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Markets</h4>
+              <!-- <p>Bali, Indonesia</p> -->
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Moodeng</a>
+          </div>
+          <p>
+              Experience the beauty of Thailand like never before with our comprehensive travel platform. Your adventure begins here, where seamless planning connects you to stunning beaches, vibrant markets, and majestic temples. Let us guide you in discovering the unforgettable experiences that await in the Land of Smiles!
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="./place.html">PLACE</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +66 888888
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> info@Moodeng
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Bangkok, Thailand
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
